@@ -28,9 +28,10 @@ function GridInterface(props) {
         onLayoutChange={onLayoutChange}
         layouts={layouts}
         onBreakpointChange={onBreakpointChange}
-        rowHeight={80}
+        rowHeight={"10px"}
         columnHeight={25}
         isResizable={true}
+
       >
         {notes.map(el => {
           return (

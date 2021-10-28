@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "graphql-dev": "graphpack",
+    "graphql-build": "graphpack build",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -20,6 +22,7 @@
   },
   "devDependencies": {
     "eslint": "7.32.0",
-    "eslint-config-next": "11.0.1"
+    "eslint-config-next": "11.0.1",
+    "graphpack": "^1.0.9"
   }
 }
